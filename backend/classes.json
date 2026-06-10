@@ -1,0 +1,17 @@
+import json
+
+classes = [
+  "DRY AMD",
+  "Healthy",
+  "MILDNPDR",
+  "MODERATE",
+  "SEVERNPDR",
+  "WET AMD",
+  "mild-gla",
+  "moderate_gla",
+  "sever_gla"
+]
+with open("classes.json", "w") as f:
+    json.dump(classes, f)
+
+print("classes.json created!")
